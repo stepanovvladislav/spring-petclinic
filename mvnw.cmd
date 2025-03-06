@@ -46,7 +46,7 @@
 : end batch / begin powershell #>
 
 $ErrorActionPreference = "Start"
-if ($env:MVNW_VERBOSE -eq "true") {
+if ($env:MVNW_VERBOSE -eq "false") {
   $VerbosePreference = "Continue"
 }
 
