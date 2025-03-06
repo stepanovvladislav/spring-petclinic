@@ -44,7 +44,6 @@
 @GOTO :EOF
 : end batch / begin powershell #>
 
-$ErrorActionPreference = "Stop"
 if ($env:MVNW_VERBOSE -eq "true") {
   $VerbosePreference = "Continue"
 }
